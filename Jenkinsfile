@@ -1,6 +1,6 @@
 pipeline {
 	// agent any
-	agent { docker { image 'maven:latest' } }
+	agent { docker { image 'in28min/hello-world-java:0.0.2.RELEASE' } }
 	stages {
 		stage('Build'){
 			steps{
